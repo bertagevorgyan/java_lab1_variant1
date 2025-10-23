@@ -8,6 +8,6 @@ public class TodoApp {
       e.printStackTrace();   //для интерфейса программы устанавливается тот же стиль, что и у ОС 
     }
 
-    SwingUtilities.invokeLater(() -> new TodoFrame(new TaskManager())); //создается стартовое окно и ему передаётся объект TaskManager
+    SwingUtilities.invokeLater(() -> new TodoFrame(new TaskManager())); //создается стартовое окно и ему передаётся объект TaskManager (хранит задачи и управляет ими)
   }
 }

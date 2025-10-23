@@ -41,6 +41,7 @@
 <img width="1133" height="158" alt="image" src="https://github.com/user-attachments/assets/e11d63d9-9b85-461b-9c37-48f5f36b17d7" />
 
 ВОЗМОЖНЫЕ ОШИБКИ
+
 To-do list может указать на ошибки, которые появляются вследствие неправильно указанных данных:
 а) неверная дата
 <img width="1134" height="589" alt="image" src="https://github.com/user-attachments/assets/e19491dd-46aa-4269-9e63-037a2acfadb1" />

@@ -43,9 +43,11 @@
 ВОЗМОЖНЫЕ ОШИБКИ
 
 To-do list может указать на ошибки, которые появляются вследствие неправильно указанных данных:
+
 а) неверная дата
 <img width="1134" height="589" alt="image" src="https://github.com/user-attachments/assets/e19491dd-46aa-4269-9e63-037a2acfadb1" />
 <img width="462" height="165" alt="image" src="https://github.com/user-attachments/assets/4db72d8d-8d12-45a0-b6a2-c7825513ac7b" />
+
 б) неверно введенный приоритет задачи
 <img width="1136" height="577" alt="image" src="https://github.com/user-attachments/assets/0b401622-d208-4c4c-8e10-f2e441b88dea" />
 <img width="356" height="166" alt="image" src="https://github.com/user-attachments/assets/15e3883f-754a-4b53-a68c-91fa1039a8ad" />

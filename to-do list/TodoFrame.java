@@ -54,7 +54,7 @@ public class TodoFrame extends JFrame {
     topPanel.add(searchField);
     topPanel.add(searchBtn);
 
-    addBtn.addActionListener(e -> openAddDialog());
+    addBtn.addActionListener(e -> openAddDialog());  // при нажатии на кнопку вызывается соответствующий метод  
     editBtn.addActionListener(e -> openEditDialog());
     delBtn.addActionListener(e -> deleteSelectedTask());
     sortBtn.addActionListener(e -> sortTasks());
@@ -75,7 +75,7 @@ public class TodoFrame extends JFrame {
       }
     };
     table = new JTable(model);
-    refreshTable(manager.getAll());
+    refreshTable(manager.getAll());  // добавляются строки с задачами 
   }
 
   //добавляем новую задачу 
@@ -111,7 +111,7 @@ public class TodoFrame extends JFrame {
     }
   }
 
-  private void openEditDialog() {
+  private void openEditDialog() {   //проверяется выделена ли задача
     int row = table.getSelectedRow();
     if (row < 0) {
       showError("Выберите задачу для редактирования!");
@@ -244,7 +244,7 @@ public class TodoFrame extends JFrame {
 
         btn.setBorder(BorderFactory.createEmptyBorder(8, 15, 8, 15));
 
-        btn.addMouseListener(new java.awt.event.MouseAdapter() {
+        btn.addMouseListener(new java.awt.event.MouseAdapter() {  // метод, с помощью которого при наведении курсора цвет кнопки меняется, а при уходе возвращается обратно
           public void mouseEntered(java.awt.event.MouseEvent evt) {
             btn.setBackground(hoverColor);
           }
